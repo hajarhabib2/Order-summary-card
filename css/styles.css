@@ -11,7 +11,7 @@
 }
 
 body {
-  background-image: url(/images/pattern-background-mobile.svg);
+  background-image: url(./images/pattern-background-mobile.svg);
   background-repeat: no-repeat;
   background-size: auto;
   background-color: var(--Pale-blue);
@@ -21,7 +21,7 @@ body {
 /* Large screens: apply desktop background */
 @media (min-width: 992px) {
   body {
-    background-image: url(/images/pattern-background-desktop.svg);
+    background-image: url(./images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-position: top;
   }
