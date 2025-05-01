@@ -41,7 +41,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [My solution](https://github.com/hajarhabib2/Order-summary-card)
-- Live Site URL: _Coming soon_
+- Live Site URL:[Live Site](https://hajarhabib2.github.io/Order-summary-card/)
 
 ## My process
 
@@ -51,7 +51,7 @@ Users should be able to:
 4. **Style the Plan Section**: Applied **flexbox** for aligning icon, title, price, and link within the plan section.
 5. **Make It Responsive**: Implemented **media queries** to adapt the layout for different screen sizes.
 6. **Add Buttons and Links**: Styled buttons and links with **Bootstrap** and custom hover effects.
-<!-- 7. **Test and Deploy**: Tested across devices and deployed on **GitHub Pages**. -->
+7. **Test and Deploy**: Tested across devices and deployed on **GitHub Pages**.
 
 ### Built with
 
@@ -69,7 +69,7 @@ Users should be able to:
 - **CSS Variables**: Leveraged custom properties (e.g., `--Pale-blue`) for consistent styling.
 - **Hover Effects**: Added interactive hover effects to buttons and links.
 - **Image Responsiveness**: Used `img-fluid` to make images scale properly.
-<!-- - **Deployment**: Deployed the project using **GitHub Pages**. -->
+- **Deployment**: Deployed the project using **GitHub Pages**.
 
 ```html
 <!-- HTML Button Example -->
