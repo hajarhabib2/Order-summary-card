@@ -1,0 +1,95 @@
+:root {
+  /* Primary */
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+
+  /* Neutral */
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+  --Lavender-blue: hsl(244.51deg 82.61% 68.43%);
+}
+
+body {
+  background-image: url(/images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: var(--Pale-blue);
+  font-family: "Red Hat Display", sans-serif;
+}
+
+/* Large screens: apply desktop background */
+@media (min-width: 992px) {
+  body {
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+}
+.card {
+  width: 23rem;
+  height: 35rem;
+}
+
+.card .card-title {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+.card .card-body .card-text {
+  font-size: 0.9rem;
+  color: var(--Desaturated-blue);
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.card .plan {
+  background-color: var(--Very-pale-blue);
+  width: 90%;
+}
+
+.card .plan .annual {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+.card .plan .price {
+  font-size: 0.7rem;
+  color: var(--Dark-blue);
+}
+
+.card .plan .music-icon-holder img {
+  width: 2.2rem;
+}
+
+.card .plan .change {
+  font-size: 0.7rem;
+  color: var(--Bright-blue);
+  font-weight: 700;
+}
+.card .plan .change:hover {
+  text-decoration: none;
+  color: var(--Lavender-blue);
+}
+.card .btn {
+  background-color: var(--Bright-blue);
+  width: 90%;
+  height: 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.card .btn:hover {
+  background-color: var(--Lavender-blue);
+}
+.card .cancle-link {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  color: var(--Desaturated-blue);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.card .cancle-link:hover {
+  color: black;
+}
