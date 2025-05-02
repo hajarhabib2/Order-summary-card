@@ -11,17 +11,18 @@
 }
 
 body {
-  background-image: url(./images/pattern-background-mobile.svg);
+  background-image: url(../images/pattern-background-mobile.svg);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: contain;
   background-color: var(--Pale-blue);
   font-family: "Red Hat Display", sans-serif;
+  background-position: top;
 }
 
 /* Large screens: apply desktop background */
 @media (min-width: 992px) {
   body {
-    background-image: url(./images/pattern-background-desktop.svg);
+    background-image: url(../images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-position: top;
   }
